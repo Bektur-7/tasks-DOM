@@ -19,9 +19,9 @@
 // 3 — Найдите все элементы mark, которые находятся в div с классом row и задайте им
 // класс .selected
 
-let marks = document.querySelectorAll('.row mark')
-for(let i = 0; i < marks.length; i++)
-marks[i].classList.add('selected')
+// let marks = document.querySelectorAll('.row mark')
+// for(let i = 0; i < marks.length; i++)
+// marks[i].classList.add('selected')
 
 
 
@@ -34,8 +34,6 @@ marks[i].classList.add('selected')
 
 //  5 — Найдите все HTML-элементы, который содержат слово «Задания» и находятся в
 // элементе с классом .container
-
-// Не понял как делать
 
 
 // 6 — Переключите элементы strong с классом some в состояние без этого класса, а
@@ -56,3 +54,7 @@ marks[i].classList.add('selected')
 
 
 // 8 — прочитайте CSS-свойство color у второй гиперсылки в тексте
+
+// let col = document.querySelectorAll('a')
+// let res = window.getComputedStyle(col[1])
+// console.log(res.color)
