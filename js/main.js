@@ -19,9 +19,9 @@
 // 3 — Найдите все элементы mark, которые находятся в div с классом row и задайте им
 // класс .selected
 
-// let marks = document.querySelectorAll('mark')
-// for(let i = 0; i < marks.length; i++)
-// marks[i].classList.add('selected')
+let marks = document.querySelectorAll('.row mark')
+for(let i = 0; i < marks.length; i++)
+marks[i].classList.add('selected')
 
 
 
